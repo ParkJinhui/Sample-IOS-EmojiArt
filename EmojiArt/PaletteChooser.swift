@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct PaletteChooser: View {
+struct PaletteChooser: View {  
     @ObservedObject var document: EmojiArtDocument
     
     @Binding var chosenPalette: String
